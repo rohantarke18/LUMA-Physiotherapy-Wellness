@@ -41,6 +41,7 @@ export default function About() {
                   alt="Therapist guiding patient mobility and posture during a clinical consultation"
                   className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-500 ease-out"
                   loading="lazy"
+                  referrerPolicy="no-referrer"
                 />
               </div>
             </div>

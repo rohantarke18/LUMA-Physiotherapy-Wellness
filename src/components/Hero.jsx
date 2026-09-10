@@ -76,6 +76,7 @@ export default function Hero({ onOpenAppointment }) {
                   alt="Physiotherapist guiding a patient through rehabilitation exercises in a warm clinic setting"
                   className="w-full h-full object-cover object-center transform group-hover:scale-102 transition-transform duration-500 ease-out"
                   loading="eager"
+                  referrerPolicy="no-referrer"
                 />
 
                 {/* Subtle, realistic clinic status element */}

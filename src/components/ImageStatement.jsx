@@ -10,6 +10,7 @@ export default function ImageStatement() {
           alt="Tranquil modern physiotherapy clinic interior"
           className="w-full h-full object-cover object-center opacity-35"
           loading="lazy"
+          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-[#26332C]/65" />
       </div>

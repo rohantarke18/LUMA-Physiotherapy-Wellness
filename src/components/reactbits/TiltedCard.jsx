@@ -105,6 +105,13 @@ export default function TiltedCard({
           src={imageSrc}
           alt={altText}
           className="tilted-card-img"
+          referrerPolicy="no-referrer"
+          loading="eager"
+          onError={(e) => {
+            if (e.currentTarget.src !== 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80') {
+              e.currentTarget.src = 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80';
+            }
+          }}
           style={{
             width: imageWidth,
             height: imageHeight,

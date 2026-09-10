@@ -130,6 +130,7 @@ export default function Treatments({ onOpenAppointment }) {
                         : 'opacity-0 scale-102 pointer-events-none'
                     }`}
                     loading="lazy"
+                    referrerPolicy="no-referrer"
                   />
                 ))}
 
@@ -227,6 +228,7 @@ export default function Treatments({ onOpenAppointment }) {
                 alt={activeTreatment.imageAlt}
                 className="w-full h-full object-cover"
                 loading="lazy"
+                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#26332C]/70 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-4 right-4 text-white">

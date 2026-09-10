@@ -7,7 +7,7 @@ export const clinicImages = {
   about: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=1000&q=80",
   
   // Therapist: Warm, professional portrait of Dr. Maya Shah in clinic attire
-  therapist: "https://images.unsplash.com/photo-1594824813580-c116c4e0bfa9?auto=format&fit=crop&w=800&q=80",
+  therapist: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80",
   
   // Statement: Serene, modern clinic interior with natural daylight and treatment table
   statement: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1800&q=80",
