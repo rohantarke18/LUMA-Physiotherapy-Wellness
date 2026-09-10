@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --color-main: #F7F5F0;
+  --color-card: #FFFFFF;
+  --color-primary: #506B5B;
+  --color-dark: #26332C;
+  --color-soft: #DDE4DB;
+  --color-accent: #C98F65;
+  --color-muted: #6E756F;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F7F5F0;
+  color: #26332C;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #DDE4DB;
+  color: #26332C;
+}
+
+/* Ensure focus states are crisp and accessible */
+:focus-visible {
+  outline: 2px solid #506B5B;
+  outline-offset: 2px;
+}
+
+/* Subtle continuous marquee animation */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: marquee-scroll 36s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+

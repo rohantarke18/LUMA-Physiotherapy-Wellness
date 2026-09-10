@@ -1,0 +1,53 @@
+import { clinicImages } from './images.js';
+
+export const treatmentsData = [
+  {
+    id: "back-neck-pain",
+    title: "Back & Neck Pain",
+    category: "Spinal Health & Posture",
+    description: "Targeted treatment and movement strategies for everyday aches, stiffness and recurring discomfort.",
+    detailedOverview: "We assess spinal mechanics, ergonomic stressors, and compensatory muscle guarding to relieve nerve pressure and restore pain-free sitting, bending, and turning.",
+    image: clinicImages.treatments.backNeck,
+    imageAlt: "Physiotherapist treating spinal and back mobility in a private treatment suite",
+    iconName: "Activity",
+    tags: ["Posture", "Spinal mobility", "Pain management"],
+    highlights: ["Joint mobilisation", "Core stability coaching", "Ergonomic guidance"],
+  },
+  {
+    id: "sports-recovery",
+    title: "Sports Recovery",
+    category: "Athletic Performance & Injury",
+    description: "Return to training with structured rehabilitation designed around your goals and activity.",
+    detailedOverview: "Whether you run, lift, or play competitive sports, we guide you through phased tissue loading, running gait analysis, and sport-specific drills to avoid re-injury.",
+    image: clinicImages.treatments.sportsRecovery,
+    imageAlt: "Runner undergoing lower limb movement and biomechanics screening",
+    iconName: "Flame",
+    tags: ["Athletes", "Return-to-sport", "Tendinopathy"],
+    highlights: ["Load progression", "Gait & stride analysis", "Tendon conditioning"],
+  },
+  {
+    id: "post-surgery-rehab",
+    title: "Post-Surgery Rehab",
+    category: "Orthopaedic Rehabilitation",
+    description: "Progressive support to rebuild movement, strength and confidence after surgery.",
+    detailedOverview: "Structured protocols following joint replacements, ACL reconstructions, rotator cuff repairs, and spinal surgeries in close alignment with your surgeon's milestones.",
+    image: clinicImages.treatments.postSurgery,
+    imageAlt: "Therapist guiding patient through knee and joint post-operative rehabilitation exercises",
+    iconName: "ShieldCheck",
+    tags: ["ACL & Meniscus", "Joint replacements", "Protocol care"],
+    highlights: ["Swelling management", "Scar tissue release", "Functional milestone tracking"],
+  },
+  {
+    id: "mobility-strength",
+    title: "Mobility & Strength",
+    category: "Functional Longevity",
+    description: "Improve movement quality, balance and strength for a more active everyday life.",
+    detailedOverview: "Building joint longevity and everyday capability for active individuals, seniors, and professionals through purposeful strength drills and active flexibility.",
+    image: clinicImages.treatments.mobilityStrength,
+    imageAlt: "Patient practicing functional balance and strength movements with guidance",
+    iconName: "Sparkles",
+    tags: ["Functional strength", "Balance", "Joint health"],
+    highlights: ["Balance & proprioception", "Hip & shoulder mobility", "Daily movement ease"],
+  },
+];
+

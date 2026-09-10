@@ -1,0 +1,50 @@
+.shiny-text {
+  color: #506B5B;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  animation: shine 4s linear infinite;
+}
+
+.shiny-text.disabled {
+  animation: none;
+  -webkit-text-fill-color: currentColor;
+}
+
+.shiny-text.pause-on-hover:hover {
+  animation-play-state: paused;
+}
+
+.shiny-text.yoyo {
+  animation: shine 4s ease-in-out infinite alternate;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.shiny-text.direction-right {
+  animation-name: shine-reverse;
+}
+
+@keyframes shine-reverse {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shiny-text {
+    animation: none !important;
+    -webkit-text-fill-color: currentColor !important;
+  }
+}

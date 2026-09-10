@@ -1,0 +1,6 @@
+{
+  "name": "LUMA Physiotherapy & Wellness",
+  "description": "A calm, patient-focused physiotherapy and rehabilitation clinic helping you recover from pain, injury, and surgery while building long-term strength and mobility.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
